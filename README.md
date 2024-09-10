@@ -1,9 +1,21 @@
+**Netflix**
 ![Screenshot 2024-09-08 150942](https://github.com/user-attachments/assets/976c9b4e-61f9-410f-afe9-601cb6d3297c)
+
 ![Screenshot 2024-09-08 150925](https://github.com/user-attachments/assets/968b9d5f-6fe9-492c-b59a-a9fa616115b6)
-![Screenshot 2024-09-07 173608](https://github.com/user-attachments/assets/b649aac2-c500-46bd-9beb-815753a1eddf)
-![Screenshot 2024-09-08 150617](https://github.com/user-attachments/assets/711e5e8f-34da-4f00-bd7f-2e2bebff4f58)
-![Screenshot 2024-09-08 150635](https://github.com/user-attachments/assets/65f26652-c268-4f9e-aca9-be03197a6a09)
+
+**Jenkins-cicd**
 ![Screenshot 2024-09-08 150907](https://github.com/user-attachments/assets/cea8ecfa-2cf5-4677-bf2b-350ca52a09f4)
+
+**Docker-hub**
+![Screenshot 2024-09-08 150726](https://github.com/user-attachments/assets/b9025f9f-627e-4574-8aee-d72924e17f8e)
+**Promethus**
+![Screenshot 2024-09-08 150745](https://github.com/user-attachments/assets/5505ee50-6e81-4b51-b713-6847fe05dd4b)
+**Grafana**
+![Screenshot 2024-09-07 173608](https://github.com/user-attachments/assets/b649aac2-c500-46bd-9beb-815753a1eddf)
+
+![Screenshot 2024-09-08 150617](https://github.com/user-attachments/assets/711e5e8f-34da-4f00-bd7f-2e2bebff4f58)
+
+
 
 
 # Deploy Netflix Clone on Cloud using Jenkins - DevSecOps Project!
