@@ -77,6 +77,9 @@ Now recreate the Docker image with your api key:
 ```
 docker build --build-arg TMDB_V3_API_KEY=<your-api-key> -t netflix .
 ```
+```
+docker build --build-arg TMDB_V3_API_KEY=af51aae0b351d65207e7736e79a3f26e -t netflix .
+```
 
 **Phase 2: Security**
 
@@ -328,9 +331,9 @@ pipeline{
             steps{
                 script{
                    withDockerRegistry(credentialsId: 'docker', toolName: 'docker'){   
-                       sh "docker build --build-arg TMDB_V3_API_KEY=<yourapikey> -t netflix ."
-                       sh "docker tag netflix nasi101/netflix:latest "
-                       sh "docker push nasi101/netflix:latest "
+                       sh "docker build --build-arg TMDB_V3_API_KEY=af51aae0b351d65207e7736e79a3f26e -t netflix ."
+                       sh "docker tag netflix iamraja/netflix:latest "
+                       sh "docker push iamraja/netflix:latest "
                     }
                 }
             }
@@ -342,21 +345,22 @@ pipeline{
         }
         stage('Deploy to container'){
             steps{
-                sh 'docker run -d --name netflix -p 8081:80 nasi101/netflix:latest'
+                sh 'docker run -d --name netflix -p 8081:80 iamraja/netflix:latest'
             }
         }
     }
 }
 
+```
 
-If you get docker login failed errorr
-
+**If you get docker login failed errorr**
+```
 sudo su
 sudo usermod -aG docker jenkins
 sudo systemctl restart jenkins
-
-
 ```
+
+
 
 **Phase 4: Monitoring**
 
